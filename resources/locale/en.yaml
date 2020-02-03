@@ -1,0 +1,16 @@
+fof-upload:
+    admin:
+        filesystem-driver:
+            public:
+                title: Upload, public
+                description: >
+                    Storage location for publicly
+                    available uploads, eg resized
+                    images and downloadable PDF's
+            private:
+                title: Upload, private
+                description: >
+                    Storage location for private
+                    files. For instance for storing
+                    original images or files that
+                    require authorisation.
